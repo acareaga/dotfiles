@@ -10,9 +10,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim " set the runtime path to include Vundle and initialize
 call vundle#begin()
 
-" if using Pathogen for plugins
-execute pathogen#infect()
-
 " Plugin 'L9' " Example of loading a plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'gmarik/Vundle.vim'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
@@ -41,6 +38,7 @@ Plugin 'https://github.com/fatih/vim-go.git'
 Plugin 'https://github.com/wting/rust.vim'
 Plugin 'https://github.com/tpope/vim-rails.git'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'https://github.com/wincent/command-t.git'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
