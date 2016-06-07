@@ -42,6 +42,7 @@ Plugin 'https://github.com/wincent/command-t.git'
 Plugin 'https://github.com/kien/ctrlp.vim.git'
 Plugin 'groenewege/vim-less'
 Plugin 'https://github.com/altercation/solarized.git'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
